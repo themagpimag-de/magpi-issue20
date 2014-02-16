@@ -249,24 +249,22 @@
             <ITEXT CH="Eine schnelle Algoid Tour"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="AlgoIDE is available on the Pi Store at "/>
+            <ITEXT CH="AlgoIDE ist im Pi Store unter "/>
             <ITEXT FCOLOR="Blue" CH="http://store.raspberrypi.com/projects/algoid"/>
-            <ITEXT CH=". It is also available on the Google Play store at "/>
+            <ITEXT CH=" erhältlich. Es ist auch im Google Play Stor unter "/>
             <ITEXT FCOLOR="Blue" CH="https://play.google.com/store/apps/details?id=fr.cyann.algoid"/>
-            <ITEXT CH=". Finally it is also available for Java at "/>
-            <ITEXT FCOLOR="Blue" CH="http://download.algoid.net"/>
-            <ITEXT CH="."/>
+            <ITEXT CH=" zu bekommen. Zu Schluss ist es auch für Java unter"/>
+            <ITEXT FCOLOR="Blue" CH=" http://download.algoid.net"/>
+            <ITEXT CH=" verfügbar."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Install it on your Raspberry Pi and launch it from the Desktop. From the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Examples"/>
-            <ITEXT CH=" menu, choose "/>
+            <ITEXT CH="Installiere es auf Deinen Rasberry Pi und rufe es über den Desktop auf. Wähle aus dem 'Examples'-Menue Install "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="demo.al"/>
-            <ITEXT CH=". Click on the &quot;Play&quot; button and the demo script will run."/>
+            <ITEXT CH=". Klicke auf den &quot;Play&quot; Knopf, um das Skript zu starten."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The program contains a function named "/>
+            <ITEXT CH="Das Programm enthält eine Funktion namens "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="poly"/>
-            <ITEXT CH=" and a loop that draws a rose window. Note that the function declaration is really special:"/>
+            <ITEXT CH=" und eine Schleife, die ein Rosenfenster malt. Beachte, dass die Funktions Deklaration wirklich speziell ist:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set poly = function (size, n) {"/>
@@ -274,7 +272,7 @@
             <ITEXT CH=" } ;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In AL everything is an expression. Example declarations are:"/>
+            <ITEXT CH="In AL ist alles eine Expression. Beispiele für Deklarationen sind:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set size = 7;"/>
@@ -284,49 +282,43 @@
             <ITEXT CH=" } ;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In AlgoIDE, check the &quot;Step by step&quot; box and click the &quot;Play&quot; button again. Now you can understand where the program is at and what it is doing. The number at the right of the check box allows you to change the step by step speed."/>
+            <ITEXT CH="In der AlgoIDE, wähle die &quot;Step by step&quot; Box und klicke noch einmal den &quot;Play&quot; Knopf. Nun kannst Du verstehen, wo die Programmausführung gerade ist und was sie macht. Die Nummer an der rechten Seite der Check-Box erlaubt Dir, die Schritt für Schritt Geschwindigkeit einzustellen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now uncheck step by step mode and check the &quot;Debug mode&quot; box. Click on the number "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="12"/>
-            <ITEXT CH=" in the source code margin. This will add a new breakpoint. Click on the &quot;Play&quot; button to run the program. "/>
+            <ITEXT CH="Deaktiviere nun den Schritt fuer Schritt Modus und wähle die &quot;Debug mode&quot; Box. Klocke auf die Nummer 12 in der Quellcode Markierung. Dies wird einen neuen Breakpoint hinzufügen. Klicke auf den &quot;Play&quot; Knopf, um das Programm neu zu starten. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Three new buttons appear - run to the next breakpoint, run to the next line and run to the next token. The Algoid debugger considers each token as an object path and expression calculation. This is perfect to understand the precedence order for example. Try each of the three new buttons."/>
+            <ITEXT CH="Drei neue Knöpfe erscheinen - laufe bis zum nächsten Breakpoint, laufe bis zur nächsten Zeile und laufe bis zum nächsten Token. Der Algoid Debugger behandelt jedes Token wie ein Objektpfad und wertet den Ausdruck aus. Dies ist perfekt, um zum Beispiel die Ausführungs-Reihenfolge zu verstehen. Teste jeden der drei neuen Knöpfe."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="You can observe the current variables and their values in the Scope Viewer window. For example debug the binary tree program ("/>
+            <ITEXT CH="Du kannst die aktuellen Variablen und ihre Werte im 'Scope Viewer' Fenster beobachten. als Bespiel debugge das Binärbaum Programm ("/>
             <ITEXT FONTSIZE="11" CH="E"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="xamples &gt; fractal &gt; binary tree.al"/>
-            <ITEXT CH=") and set a breakpoint on line "/>
+            <ITEXT CH=") und setze einen Breakpoint auf Zeile "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="12"/>
-            <ITEXT CH=". Observe the value of "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="it"/>
-            <ITEXT CH=" and "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="size"/>
-            <ITEXT CH=" in the Scope Viewer with each iteration."/>
+            <ITEXT CH=". Beobachte die Variable und ihre größe im Scope Viewer mit jeder Wiederholung."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Documentation"/>
+            <ITEXT CH="Dokumentation"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To learn a language and how to program, the most important thing is documentation and sharing experiences. The "/>
+            <ITEXT CH="Beim Lernen einer Sprache und beim Programmieren ist das Wichtigste, die Dokumentation und das Teilen der Erfahrungen. Die Web-Seite "/>
             <ITEXT FCOLOR="Blue" CH="http://www.algoid.net"/>
-            <ITEXT CH=" web site contains a complete language reference section and a continuously updated tutorial list. The tutorials contain a lot of examples and progressive exercises to help explain each language statement and function."/>
+            <ITEXT CH=" enthält eine komplette Sprach-Referenz un eine kontinuierliche aktualisierte Beispiel-Sektion. Die Anleitungen beinhalten eine Menge an Beispielen und aufbauenden Übungen, die dabei helfen, jeden Ausdruck und jede Funktion zu verstehen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Algoid is also a community federated by the forum "/>
+            <ITEXT CH="Algoid ist auch eine Kommunity, die über das Forum "/>
             <ITEXT FCOLOR="Blue" CH="http://forum.algoid.net"/>
-            <ITEXT CH=". It contains a lot of discussions, problem solutions and mini-tutorials."/>
+            <ITEXT CH=" vereinigt wird. Dieses enthält viele Diskussionen, Problemlösungen und Kurz-Anleitungen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Another way to learn programming is with other people! Some members have created a team to develop games on Algoid. When programs are interesting they are included in the next application release. Everyone can learn from one another. Everything in the Algoid environment is based on sharing source code and knowledge."/>
+            <ITEXT CH="ein weiterer Weg, Programmieren zu lernen, ist mit Anderen! Einige Mitglieder haben Teams gebildet, um Spiele mit Algoid zu entwickeln. Wenn Programme interessant sind, werden sie in der folgenden Applikations-Version mit aufgenommen. Jeder kann von jeden lernen. Alles in der Algoid Umgebung basiert auf den teilen von Quellcode und Wissen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Teaching"/>
+            <ITEXT CH="Die Lehre"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="Algoid is also designed for teachers. As Algoid is a free tool, all help is greatly appreciated for tutorial writing, documentation corrections, etc."/>
+            <ITEXT CH="Algoid ist auch für Lehrer entwickelt worden. Da Aldoid ein freies Werkzeug ist, ist alle Hilfe beim Anleitung schreiben, korrigieren der Dokumentation u.s.w. sehr gern gesehen."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Algoid gives teachers the ability to write their own learning plugins. A tutorial and an article explaining how to do that is already available. Writing a plugin in Algoid is very simple. The teacher just needs to have some basic Java and Swing development knowledge."/>
+            <ITEXT CH="Algoid erlaubt es Lehrern, ihre eigenen Lehr-Plugins zu schreiben. Das schreiben eines Plugins in Algoid ist sehr einfach. Der Lehrer muss einige grundlegenden Java und Swing Entwicklungs Erfahrungen besitzen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Plugin development is divided in two steps:"/>
