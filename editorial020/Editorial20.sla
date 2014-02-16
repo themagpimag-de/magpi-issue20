@@ -95,15 +95,13 @@
             <ITEXT CH="Wir haben weiteres aus der Quadcopter Serie von Andy Baker in der die Vorflugkontrolle besprochen wird. Sein Artikel schaut auf die Bewegungen des Quadcopter und entält einige nützliche Fragen und Antworten für diejenigen, die dieses Projekt nachbauen wollen."/>
             <para/>
             <para/>
-            <ITEXT CH="We have a great article detailing John Hobson’s and Efrain Olivares’ journey into managing the frustrating problem of internet dropout. "/>
-            <ITEXT FONT="FreeSans Regular" CH="We then head over to France"/>
-            <ITEXT CH=" where Yann Caron presents his development environment and language ‘Algoid’, before the NanoXion chaps present their Raspberry Pi colocation service."/>
+            <ITEXT CH="War haen einen tollen Arikel über John Hobson's und Efrain Oliraves' Reise ins Management des frustierenden Problems von Internet Ausfällen. Dann wechseln wir nach Frankreich, wo Yann Caron seine Entwicklungsumgeung und Sprache 'Algoid' präsentiert, brvot fir Freunde von NanoXion ihren Rasberry Pi Kolokationsdienst vorstellen."/>
             <para/>
             <para/>
-            <ITEXT CH="As always, we keep you updated with the latest Raspberry Pi book reviews and upcoming events.  "/>
+            <ITEXT CH="Wie immer halten wir Dich auf den Laufenden mit den aktuellen Rasberry Pi Büchern und anstehenden Veranstaltungen."/>
             <para/>
             <para/>
-            <ITEXT CH="Let's begin..."/>
+            <ITEXT CH="Lasst uns loslegen ..."/>
             <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
