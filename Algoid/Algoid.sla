@@ -272,7 +272,7 @@
             <ITEXT CH=" } ;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In AL ist alles eine Expression. Beispiele für Deklarationen sind:"/>
+            <ITEXT CH="In AL ist alles ein Ausdruck. Beispiele für Deklarationen sind:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set size = 7;"/>
@@ -321,51 +321,51 @@
             <ITEXT CH="Algoid erlaubt es Lehrern, ihre eigenen Lehr-Plugins zu schreiben. Das schreiben eines Plugins in Algoid ist sehr einfach. Der Lehrer muss einige grundlegenden Java und Swing Entwicklungs Erfahrungen besitzen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Plugin development is divided in two steps:"/>
+            <ITEXT CH="Die Entwicklung von Plugins ist in zwei Schritte unterteilt:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="1) De­vel­op the lib­rary with ob­jects and functions needed for the course. "/>
+            <ITEXT CH="1) Entwickle die Bibliothek mit Objekten und Funktionen, die für den Kurs benötigt werden. "/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="2) If necessary, develop a new Java panel (view) and bind it with the library."/>
+            <ITEXT CH="2) Wenn notwendig, erstelle ein Java Panel (view) und verbinde es mit der Bibliothek."/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="A complete range of tools are available to interact with the AL language. The tutorial provides a complete Java NetBeans project starter and documentation."/>
+            <ITEXT CH="Eine grosse Spannweite an Werkzeugen für die Interaktion mit der AL Sprache ist verfügbar. Die Anleitung enthält einen vollständigen Java NetBeans Projekt Starter und Dokumentation."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This is an example of the library development:"/>
+            <ITEXT CH="Dies ist ein Beispiel für die Bibliotheks Entwicklung:"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This is the resulting the example panel:"/>
+            <ITEXT CH="Dies ist das resultierende Beispliels Panel:"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Once complete, just copy the "/>
+            <ITEXT CH="Einmal fertig, kopiere einfach die "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="&lt;plugin&gt;.jar"/>
-            <ITEXT CH=" file to the "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Algoid/plugin"/>
-            <ITEXT CH=" folder and that's it!"/>
+            <ITEXT CH=" Datei in den "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Algoid/Plugin"/>
+            <ITEXT CH=" Ordner und das war's!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="With this feature a lot of improvements can be "/>
-            <ITEXT FONT="FreeSans Regular" CH="added to Algoid, like GPIO communications, a true 2D game engine (planned for future development), mathematical functions, etc. Everything you want to teach or command can be added with this powerful scripting language!"/>
+            <ITEXT CH="Durch diese Funktionalität können eine Menge an Erweiterungen Algoid hinzugefügt werden, z.B. "/>
+            <ITEXT FONT="FreeSans Regular" CH="GPIO Kommunikation, eine echte 2D Spiele Engine (in Planung für weitere Entwicklungen) oder Mathematische Funktionen. Alles, was Du lehren oder steuern willst, kann mit dieser mächtigen Skript-Sprache hinzugefügt werden!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Video game development"/>
+            <ITEXT CH="Video Spiel Entwicklung"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="One principle of Algoid is to be fun, because when it is fun, learning becomes a pleasure. What is more fun than creating your own game? "/>
+            <ITEXT CH="Eine Grundlage von Algoid ist, dass es Spassmachen soll. Denn wenn es Spass macht, wird lernen zur Freude. Und was ist mehr Spass als die Erstellung Deiner eigenen Spiele?"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The game above contains only 300 lines of source code and this include all the graphics and animated stars. You can play it from "/>
+            <ITEXT CH="Das obige Spiel enthält nur 300 Zeilen Quellcode, inklusive der Graphik und der animierten Sterne. Du kannst es unter "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="Examples &gt; games &gt; star battle.al"/>
-            <ITEXT CH="."/>
+            <ITEXT CH=" spielen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Tutorials"/>
+            <ITEXT CH="Übungen"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In this simple tutorial, we will see how to animate a spaceship.  Then features such as typing, stamps and events will be discussed."/>
+            <ITEXT CH="In dieser einfachen Übung werden wir lernen, wie man ein Raumschiff animiert. Danach werden Eigenschaften wie Typisierung, Stempel und Ereignisse beschrieben."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first steps of the program are to hide the turtle, create a spaceship and draw it."/>
+            <ITEXT CH="Die ersten Schritte des Programms verstecken die Schildkröte, erstellen das Raumschiff und malen es."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT SCALEH="92" BASEO="1" CH=" algo.hide();"/>
@@ -424,19 +424,19 @@
             <ITEXT CH=" };"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT CH="Note how objects are defined:"/>
+            <ITEXT CH="Beachte, wie die Objekte definiert werden:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set ship = object () {};"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In AL everything is an expression.  An object is defined in the same way as a number or a string.  Objects, functions and arrays are all declared  using the same expression syntax:"/>
+            <ITEXT CH="In AL ist alles ein Ausdruck. Ein Objekt wird auf dieselbe Art definiert wie eine Zahl oder eine Zeichenkette. Objekte, Funktionen und Arrays werden alle mit derselben Syntax deklariert:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set [name] = [something];"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In the case of objects, parenthesis are used for inheritance and {} are used for members.  Then to define members of an object, all you need to do is to define another expression within the object:"/>
+            <ITEXT CH="Im Fall der Objekte werden Klammern () für die Vererbung und {} für Mitglieder genutzt. Um dan Mitglieder eines Objektes zu definieren, musst Du nur einen weiteren Ausdruck innerhalb des Objektes definieren:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" set o = object () {"/>
@@ -461,18 +461,18 @@
             <ITEXT FONTSIZE="9" CH=" };"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The semi-colons in this code are optional."/>
+            <ITEXT CH="Die Semikolons in diesem Kode sind optional."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Note: In AL, objects are directly created with their declaration.  An object can be used imediatelly after it is created. If some more objects of the same class are needed, it is possible to clone the initial object."/>
+            <ITEXT CH="Beachte: in AL werden Objekte gleich bei ihrer Deklaration erzeugt. Ein Objekt kann sofort nach seiner Kreation genutzt werden. Wenn weitere Objekte derselben Klasse benötigt werden, ist es möglich, das initiale Objekt zu klonen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The next concept to introduce is a stamp.  A  stamp works by cloning (creating a new instance of an existing object) of the "/>
+            <ITEXT CH="Das nächste Konzept, das vorgestellt wird, ist der Stempel (Stamp). Ein Stempel arbeitet durch klonen (erstellen einer neuen Instanz eines bestehenden Objektes) des "/>
             <ITEXT FONT="Monaco Regular" CH="algo.stamp"/>
-            <ITEXT CH=" object."/>
+            <ITEXT CH=" Objektes."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The syntax begins with "/>
+            <ITEXT CH="Die Syntax beginnt mit "/>
             <ITEXT FONT="Monaco Regular" FCOLOR="Black" CH="set"/>
             <ITEXT CH=":"/>
             <para PARENT="Body text"/>
@@ -480,28 +480,28 @@
             <ITEXT CH=" set stamp = algo.stamp.clone ();"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="A stamp contains two pieces of information: a two dimensional array of colours and the size of a pixel.  In AL, an array is declared using the array keyword."/>
+            <ITEXT CH="Ein Stempel enthält zwei Informationen: ein zwei dimensionales Array mit Farben und der Grösse eines Pixels. In AL wird ein Array mit dem Schlüsselwort array erstellt."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set a = array {1, 2, 3, 4};"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="A nested array does not require a keyword."/>
+            <ITEXT CH="Ein verschachteltes Array benötigt kein Schlüsselwort."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" set a = array {1, {2, {3, 4}}, 5, {6, 7}}"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This example represents a tree.  It demonstrates how simple it is to define data structures in AL.  The AL language is functional and uses the power of map / filter / reduce, similar to Python."/>
+            <ITEXT CH="Dieses Beispiel stellt einen Baum dar. Es zeigt, wie einfach Datenstrukturen in AL definiert werden können. AL ist funktional und nutzt die Mächtigkeit von map / filter / reduce, vergleichbar mit Python."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Numbers can be replaced by a function, or objects  and array of functions, etc. Imagine the capabilities of this kind of flexibility."/>
+            <ITEXT CH="Zahlen könenn durch Funktionen, Objekten oder Arrays von Funktionen ersetzt werden. Stelle Dir die Möglichkeiten dieser Art Flexibilität vor."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now the image needs to be drawn on the screen.  "/>
+            <ITEXT CH="Nun muss das Bild auf den Bilschirm gezeichnet werden.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="There are two steps to draw a stamp:"/>
+            <ITEXT CH="Es sind zwei Schritte um einen Stempel zu malen:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" algo.goTo(x,y);"/>
@@ -509,13 +509,13 @@
             <ITEXT CH=" stamp.draw();"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If we draw the stamp again in another position, then AL will draw an additional ship. This will create two stamps on the screen.  To create an animation, we will limit the number of simultaneous stamps on the screen."/>
+            <ITEXT CH="Wenn wir den Stempel auf einer anderen Position noch einmal zeichnen, wird AL ein weiteres Raumschiff zeichnen. Dadurch werden zwei Stempel auf dem Bildschirm erzeugt. Um eine Animation zu erzeugen müssen wir die Anzahl der gleichzeigtigen Stempel auf dem Bildschirm einschränken."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" algo.setStack (1); // only one stamp in stack"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The object can now be  animated with an event: "/>
+            <ITEXT CH="Das Objekt kann nun mit einem Event animiert werden: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" util.pulse (function () {"/>
@@ -525,10 +525,10 @@
             <ITEXT FONTSIZE="9" CH=" }, 40);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="AL is a complete functional language.  Functions can be passed as parameters and returned as results. Events are based on a callback mechanism.  If a function is passed as a parameter, then it is only called when necessary.  In this case, every 40 milli-seconds."/>
+            <ITEXT CH="AL ist eine komplette Funktionale Sprache. Funktionen können als Parameter übergeben und als Ergebnis zurückgeliefert werden. Events basieren auf einem Callback Mechanismus. Wenn eine Funktion als Parameter übergeben wird, dann wird sie nur aufgerufen, wenn es notwendig ist. In diesem Fall alle 40 Milli-Sekunden."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Up to this point, nothing is moving. To show some animation, let us modify the position each time like this:"/>
+            <ITEXT CH="Bis zu diesen Augenblick bewegt sich noch nichts. Um etwas Animation zu zeigen, wird die Position jedes mal verändert:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" util.pulse (function () {"/>
@@ -540,9 +540,9 @@
             <ITEXT FONTSIZE="9" CH=" }, 40);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now we will add the ability to move the ship according to the mouse position with the event "/>
+            <ITEXT CH="Nun werden wir die Fähigkeit, das Schiff über die Maus-Positon zu bewegen, mittels des Events "/>
             <ITEXT FONT="Monaco Regular" CH="algo.onMove()"/>
-            <ITEXT CH="."/>
+            <ITEXT CH=" einbauen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="9" CH=" algo.onMove (function (x, y) {"/>
@@ -552,40 +552,40 @@
             <ITEXT FONTSIZE="9" CH=" });"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Note: The mouse coordinates are given in the x and y parameters of the callback function. Thus it is possible to connect the ship x and y coordinates to the mouse x and y coordinates."/>
+            <ITEXT CH="Beachte: die Maus Koordinaten werden ind den x,y Parametern der Callback Funktion angegeben. Dadurch ist es möglich, die x,y Koordindaten des Schiffes mit denen der Maus zu verbinden."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="That's it! Now you are able to move a stamp in Algoid.  This example can be used as the basis of a complete game.  "/>
+            <ITEXT CH="Das war's! Nun bist Du in der Lage, einen Stempel in Algiod zu bewegen. Dieses Beispiel kann als Grundlage für das komplette Spiel genutzt werden."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The steps of the program are:"/>
+            <ITEXT CH="Die Schritte des Programms sind:"/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="1) Define objects, their coordonates, their graphic stamp(s), their draw method etc."/>
+            <ITEXT CH="1) Definiere Objekte, ihre Koordinaten, ihren Graphik-Stempel, ihre Zeichenmethode usw."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="2) Hide the turtle."/>
+            <ITEXT CH="2) Verstecken der Schildkröte."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="3) Determine how many stamp should be  drawn simultaneously."/>
+            <ITEXT CH="3) Bestimmen, wie viele Stempel gleichzeitig gemalt werden sollen."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="4) Create frame drawing with "/>
+            <ITEXT CH="4) Erstelle die Zeichnungen mittels "/>
             <ITEXT FONT="Monaco Regular" CH="util.pulse"/>
             <ITEXT CH="."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="5) Create behaviours with Algoid's events like "/>
+            <ITEXT CH="5) Erstelle das Verhalten mit Algoid Events wie "/>
             <ITEXT FONT="Monaco Regular" CH="onMove"/>
             <ITEXT CH=", "/>
             <ITEXT FONT="Monaco Regular" CH="onClick"/>
-            <ITEXT CH=" (or "/>
+            <ITEXT CH=" (oder "/>
             <ITEXT FONT="Monaco Regular" CH="onTouch"/>
             <ITEXT CH=", "/>
             <ITEXT FONT="Monaco Regular" CH="onGravity"/>
-            <ITEXT CH=" and other sensors on Android)."/>
+            <ITEXT CH=" und anderen Sensoren von Android)."/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Conclusion"/>
+            <ITEXT CH="Fazit"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Algoid is a great free tool, to learn or to teach programming.  For further questions, suggestions or ideas, you can contact me at cyann74@gmail.com   or try the forum at "/>
+            <ITEXT CH="Algoid ist ein tolles freies Werkzeug, um Programmieren zu lehren oder zu lernen. Für weitere Fragen, Anregungen oder Ideen kannst Du mich unter cyann74@gmail.com erreichen oder nutze das Forum unter "/>
             <ITEXT FCOLOR="Blue" CH="http://forum.algoid.net"/>
             <ITEXT FCOLOR="Black" CH="."/>
             <trail PARENT="Body text"/>
